@@ -1,3 +1,8 @@
+#####################################################################
+# Test client - client3.py                                          #
+#                                                                   #
+# Tested with Python 2.7.9 & Python 3.4 on Ubuntu 14.04 & Mac OS X  #
+#####################################################################
 import argparse
 import errno
 import os

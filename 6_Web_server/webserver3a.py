@@ -1,5 +1,9 @@
+#####################################################################
+# Iterative server - webserver3a.py                                 #
+#                                                                   #
+# Tested with Python 2.7.9 & Python 3.4 on Ubuntu 14.04 & Mac OS X  #
+#####################################################################
 import socket
-import time
 
 SERVER_ADDRESS = (HOST, PORT) = '', 8888
 REQUEST_QUEUE_SIZE = 5
@@ -14,7 +18,6 @@ HTTP/1.1 200 OK
 Hello, World!
 """
     client_connection.sendall(http_response)
-    time.sleep(60)  # sleep and block the process for 60 seconds
 
 
 def serve_forever():
